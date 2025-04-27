@@ -476,3 +476,7 @@
 .btn-close {
     font-size: 0.8rem;
 }
+
+.portfolio-item {
+    margin-bottom: 30px;
+}

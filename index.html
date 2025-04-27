@@ -88,14 +88,15 @@
                             <div class="typed-text d-none">Data Analyst, Business Analyst, ML Engineer, BI Developer, Data Engineer</div>
                         </div>
     
-                        <div class="d-flex flex-wrap align-items-center pt-3">
-                            <a href="#" class="btn btn-primary btn-lg px-5 py-3 me-4 mb-3" style="border-radius: 30px; min-width: 220px;">
+                        <div class="d-flex flex-wrap align-items-center pt-3 justify-content-center">
+                            <a href="#" class="btn btn-primary btn-lg px-4 py-2 me-3" style="border-radius: 30px; min-width: 180px;">
                                 <i class="fas fa-download me-2"></i>TÉLÉCHARGER CV
                             </a>
-                            <a href="#contact" class="btn btn-outline-primary btn-lg px-5 py-3 mb-3" style="border-radius: 30px; min-width: 220px;">
+                            <a href="#contact" class="btn btn-outline-primary btn-lg px-4 py-2" style="border-radius: 30px; min-width: 180px;">
                                 <i class="fas fa-envelope me-2"></i>ME CONTACTER
                             </a>
                         </div>
+                        
                     </div>
                 </div>
     
@@ -649,72 +650,180 @@
                     <h1 class="display-5 mb-0">My Projects</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
-                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
-                        <li class="mx-3 active" data-filter="*">All Projects</li>
-                        <li class="mx-3" data-filter=".first">Developer web</li>
-                        <li class="mx-3" data-filter=".second">Dashboard</li>
-                        <li class="mx-3" data-filter=".third">AI Project</li>
+                    <ul class="list-inline d-flex justify-content-end align-items-center mb-0" id="portfolio-flters" style="gap: 20px; flex-wrap: nowrap;">
+                        <li class="list-inline-item active" data-filter="*">All Projects</li>
+                        <li class="list-inline-item" data-filter=".first">Developer Web</li>
+                        <li class="list-inline-item" data-filter=".second">Dashboard & Automatisation</li>
+                        <li class="list-inline-item" data-filter=".third">Machine Learning</li>
                     </ul>
-                </div>
+                </div>                
             </div>
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <!-- Developer Web Project -->
+
+                 <!-- projet Myshop -->
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-1.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="/videos/myShopProject.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>MyShop </h5>
+                        <p class="text-muted"> c'est un projet de gestion de stock, qui permettait à un admin d'ajouter, modifier ou supprimer les produits depuis une base de données.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">Tailwind CSS</span></li>
+                            <li><span class="badge bg-secondary">PHP</span></li>
+                            <li><span class="badge bg-primary">Mysql</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+
+
+                 <!-- projet Web Feeds Apps -->
+
+                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="/videos/freedsAds.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>FreedsAdd</h5>
+                        <p class="text-muted">C'est un site de publication d'annonce, qui permet à l'utilisateur de publier, voir, modifier et supprimer une annonce.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">Laravel</span></li>
+                            <li><span class="badge bg-secondary">Tailwind CSS</span></li>
+                        </ul>
                     </div>
                 </div>
+
+
+                <!-- TWP project -->
+
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="/videos/twp_project.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>Twp</h5>
+                        <p class="text-muted">C'est un projet qui vise à réproduire les fonctionnamlités de Trello.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">HTML</span></li>
+                            <li><span class="badge bg-secondary">CSS</span></li>
+                            <li><span class="badge bg-primary">Wordpress</span></li>
+                            <li><span class="badge bg-secondary">VueJs</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+
+
+                 <!-- projet PostIt Apps -->
+
+                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        <div class="portfolio-img rounded overflow-hidden">
+                            <video class="img-fluid custom-video-height" controls>
+                                <source src="/videos/yowlProject.webm" type="video/webm">
+                            </video>
                         </div>
                     </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>Post-it </h5>
+                        <p class="text-muted">C'est un projet qui consistait à ajouter, modifier et supprimer des notes.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">HTML</span></li>
+                            <li><span class="badge bg-secondary">CSS</span></li>
+                            <li><span class="badge bg-primary">NodeJs</span></li>
+                        </ul>
+                    </div>
                 </div>
+
+
+                <!-- projet Yowl Apps -->
+
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-5.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="/videos/yowlProject.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>Yowl </h5>
+                        <p class="text-muted">Le pojet consistait à donner son n'avis sur n'importe quel publication sur les réseaux sociaux via notre site sans être sanctionner.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">Laravel</span></li>
+                            <li><span class="badge bg-secondary">VueJs</span></li>
+                            <li><span class="badge bg-primary">Tailwind Css</span></li>
+                        </ul>
                     </div>
                 </div>
+
+
+
+
+                
+                <!-- Dashboard Project -->
                 <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-6.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="/videos/groceryDashboard.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>Grocery Dataviz</h5>
+                        <p class="text-muted">Analyse des ventes d'un supermachet avec les librairies de python suivie de la visuualisation avec Power Bi.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">PowerBi</span></li>
+                            <li><span class="badge bg-secondary">Pandas</span></li>
+                            <li><span class="badge bg-primary">Numpy</span></li>
+                            <li><span class="badge bg-secondary">Matplotlib</span></li>
+                            <li><span class="badge bg-primary">plotly</span></li>
+                            <li><span class="badge bg-secondary">seaborn</span></li>
+                            <li><span class="badge bg-primary">missingno</span></li>
+
+                        </ul>
                     </div>
                 </div>
+
+
+                <!-- MACHINE LEARNING Project -->
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <video class="img-fluid custom-video-height" controls>
+                            <source src="" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="portfolio-description mt-3">
+                        <h5>NL Analysis</h5>
+                        <p class="text-muted">Analyses des sentiments de 52 livres afin de faire ressortir les thèmes importants.</p>
+                        <h6 class="mt-3">Technologies Utilisées:</h6>
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center" style="gap: 15px;">
+                            <li><span class="badge bg-primary">Numpy</span></li>
+                            <li><span class="badge bg-secondary">Pandas</span></li>
+                            <li><span class="badge bg-primary">Matplotlib</span></li>
+                            <li><span class="badge bg-primary">Nltk</span></li>
+                            <li><span class="badge bg-primary">WordCloud</span></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
+                
+                
             </div>
         </div>
     </div>
+
     <!-- Projects End -->
 
 
