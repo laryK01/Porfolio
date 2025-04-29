@@ -480,3 +480,52 @@
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+.skill-category-card {
+    background: white;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.skill-category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.icon-square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
+    .skill-category-card {
+        transition: all 0.3s ease;
+    }
+    
+    .skill-category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+    
+    .badge {
+        transition: all 0.2s ease;
+    }
+    
+    .badge:hover {
+        transform: scale(1.05);
+    }
+    .gap-2 {
+        gap: 0.5rem !important;
+    }
+
