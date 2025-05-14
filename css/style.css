@@ -549,3 +549,14 @@
         gap: 0.5rem !important;
     }
 
+    @media (max-width: 767.98px) {
+        #portfolio-flters {
+          gap: 10px !important;
+        }
+      
+        #portfolio-flters .list-inline-item {
+          font-size: 12px !important;
+          padding: 4px 6px; 
+        }
+      }
+      
