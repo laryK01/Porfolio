@@ -208,6 +208,25 @@
 }
 
 
+.modal-certificate-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  @media (max-width: 767.98px) {
+    .modal-dialog {
+      margin: 1rem;
+    }
+  
+    .modal-body {
+      padding: 1rem;
+    }
+  }
+  
+
+
 /*** About ***/
 #about .years .display-1 {
     font-size: 10rem;
