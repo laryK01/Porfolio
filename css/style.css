@@ -182,20 +182,6 @@
 }
 
 
-@media (max-width: 767.98px) {
-    #portfolio-flters {
-      flex-wrap: wrap !important;
-      justify-content: center !important;
-      gap: 10px !important;
-      padding: 10px 0;
-    }
-  
-    .text-lg-end {
-      text-align: center !important;
-    }
-  }
-  
-
 .modal-video .modal-dialog {
     position: relative;
     max-width: 800px;
